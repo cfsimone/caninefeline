@@ -2064,7 +2064,17 @@ span.weee {
   color: #a0a0a0;
   font-size: 13px;
 }
+@media only screen and (max-width:479px) {
+  .std ul.products-grid li {
+    list-style: none;
+    margin-left: 0;
+    width: 100%;
+  }
+}
 
+
+
+}
 /* -------------------------------------------- *
  * Tabs
  */
@@ -3238,12 +3248,12 @@ body {
 }
 .header-language-background,
 .header-language-background a {
-  color: #000000;
+  color: #543a29;
 }
 
 @media only screen and (max-width: 770px) {
   .header-language-background {
-    display: none;
+    /*display: none;*/
   }
 }
 /* ============================================ *
@@ -3258,9 +3268,11 @@ body {
 }
 .logo .small {
   display: block;
+  margin: auto;
 }
 .logo .large {
   display: none;
+  margin-left: 50%;
 }
 
 .logo:hover {
@@ -3277,7 +3289,7 @@ body {
   }
   .logo .large {
     display: block;
-    margin-left: 50%;
+    margin: auto;
 
   }
 }
@@ -3988,6 +4000,7 @@ a.skip-link {
 @media only screen and (max-width: 479px) {
   .footer {
     padding-top: 15px;
+    max-width: 400px;
   }
 }
 .footer .block-title {
@@ -4082,7 +4095,7 @@ a.skip-link {
 }
 .footer .block-subscribe .input-box {
   float: left;
-  width: 65.625%;
+  /*width: 65.625%;*/
   padding-top: 0;
 }
 .footer .block-subscribe .input-text {
@@ -4160,8 +4173,8 @@ a.skip-link {
 }
 @media only screen and (max-width: 599px) {
   .footer .links {
-    width: 48.4375%;
-    margin-right: 0;
+    width: 100%;
+    padding: 15px;
   }
   .footer .links:nth-child(odd) {
     margin-right: 3.125%;
@@ -4858,7 +4871,7 @@ p.product-name a:hover {
     margin-top: -5px;
   }
   .block-layered-nav .block-subtitle--filter:hover {
-    background-color: #7ae35f;
+    background-color: #2e8ab8;
     color: #FFFFFF;
   }
   .block-layered-nav .block-subtitle--filter.active:after {
