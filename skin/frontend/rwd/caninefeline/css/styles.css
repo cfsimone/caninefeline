@@ -1303,7 +1303,7 @@ a.button:hover {
 }
 
 .footer-container {
-  width: 100%;
+  max-width: 100%;
   background-color: #000000;
 }
 
@@ -1428,7 +1428,7 @@ a.button:hover {
   .col3-layout .col-wrapper .col-left,
   .col3-layout .col-right,
   .col3-layout .col-wrapper .col-main {
-    padding: 0;
+    padding: 20px;
     margin-bottom: 10px;
     float: none;
     width: auto;
@@ -3976,6 +3976,121 @@ a.skip-link {
   border-top: 1px solid #cccccc;
   font-size: 13px;
 }
+* Promotion Banner Section
+*/
+.promos {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.promos:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Specifying the body only in order to override the .std ul li styling */
+body .promos > li {
+    margin: 0 0 20px 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    border: 1px solid #cccccc;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.promos > li:last-child {
+    margin-bottom: 0;
+}
+
+.promos img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.promos a:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    display: block;
+}
+
+.promos span {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 10%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    text-shadow: 1px 1px 3px #555555;
+}
+
+.promos strong {
+    font-weight: 600;
+    font-size: 26px;
+    display: block;
+}
+
+@media only screen and (min-width: 771px) {
+    .promos span {
+        font-size: 16px;
+    }
+
+    .promos strong {
+        font-size: 17px;
+    }
+
+    /* Config: Three columns + flexible gutter */
+    body .promos > li {
+        float: left;
+        width: 31.74603%;
+        margin-right: 2.38095%;
+    }
+
+    .promos > li:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width: 880px) {
+    .promos span {
+        font-size: 18px;
+    }
+
+    .promos strong {
+        font-size: 24px;
+    }
+}
+/* -------------------------------------------- *
+ * New Products Section
+ */
+/* Hiding the reviews content via CSS because we can't modify the template, */
+/* since it may be used in other places where those elements are needed */
+.cms-index-index .products-grid .ratings,
+.cms-index-index .products-grid .actions,
+.cms-index-noroute .products-grid .ratings,
+.cms-index-noroute .products-grid .actions {
+    display: none;
+}
+
+.cms-index-index h2.subtitle {
+    padding: 6px 0;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+.cms-index-noroute h2.subtitle {
+    display: none;
+}
 
 /* ============================================ *
  * Footer
@@ -3991,7 +4106,7 @@ a.skip-link {
 .footer {
   clear: both;
   margin: auto;
-  width: 1260px;
+  max-width: 1260px;
   padding-top: 30px;
   /* -------------------------------------------- *
    * Social icons
@@ -4000,7 +4115,7 @@ a.skip-link {
 @media only screen and (max-width: 479px) {
   .footer {
     padding-top: 15px;
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 .footer .block-title {
@@ -8816,6 +8931,8 @@ div.paypal-logo span > img {
     max-width: 100%;
   }
 }
+
+
 /* ============================================ *
  * Slideshow
  * ============================================ */
@@ -8823,10 +8940,11 @@ div.paypal-logo span > img {
   position: relative;
   display: block;
   width: 100%;
+  padding: 0px;!important;
 }
 .slideshow-container .slideshow {
   width: 100%;
-  padding: 0;
+  padding: 0;!important
   position: relative;
   margin: 0;
   border: 0px solid #FFFFFF;
