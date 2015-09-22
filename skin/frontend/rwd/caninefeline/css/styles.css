@@ -451,6 +451,8 @@ q:after {
 
 input:focus,
 input[type="search"]:focus {
+  border: 0px solid whitesmoke;
+  outline: 2px solid #8a8a8a;
   outline-offset: -2px;
 }
 
@@ -3317,10 +3319,12 @@ body {
   color: #636363;
   line-height: 42px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 a.skip-link {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .skip-link:not(.skip-active):hover {
@@ -3339,6 +3343,7 @@ a.skip-link {
 @media only screen and (min-width: 500px) {
   .skip-link {
     width: 25%;
+    text-transform: uppercase;
   }
 }
 /* -------------------------------------------- *
@@ -3348,10 +3353,12 @@ a.skip-link {
   .skip-link.skip-active {
     background: #F5F5F5;
     color: inherit;
+    text-transform: uppercase;
   }
 
   .skip-link.skip-active span {
     color: inherit;
+    text-transform: uppercase;
   }
 }
 /* -------------------------------------------- *
@@ -3869,6 +3876,18 @@ a.skip-link {
   background-position: 0px -95px;
 }
 
+@media only screen and (max-width: 771px) {
+  .skip-cart .icon {
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .skip-cart .icon {
+    margin-left: 0px;
+  }
+}
+
 @media only screen and (min-width: 771px) {
   .skip-cart {
     width: auto;
@@ -4327,7 +4346,7 @@ body .promos > li {
     margin-right: 3.125%;
   }
   .footer .links:nth-child(4) {
-    margin-right: 0;
+    margin-right: 3.125%;
   }
   .footer .block-subscribe {
     clear: both;
@@ -4344,7 +4363,7 @@ body .promos > li {
 @media only screen and (max-width: 599px) {
   .footer .links {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
   }
   .footer .links:nth-child(odd) {
     margin-right: 3.125%;
@@ -9028,7 +9047,7 @@ div.paypal-logo span > img {
   width: 100%;
   z-index: 115;
   position: absolute;
-  bottom: 0px;
+  bottom: 4%;
   top: auto;
   overflow: hidden;
   -moz-user-select: none;
@@ -9037,6 +9056,15 @@ div.paypal-logo span > img {
   -o-user-select: none;
   user-select: none;
 }
+
+@media only screen and (max-width: 479px){
+  .slideshow-pager {
+    bottom: 5%;
+  }
+}
+
+
+
 .slideshow-pager span {
   font-family: arial;
   width: 44px;
@@ -10011,6 +10039,7 @@ div.paypal-logo span > img {
 
 .contacts-index-index h1 {
   border: none;
+  padding-top: 20px;
 }
 
 #contactForm {
@@ -10033,6 +10062,13 @@ div.paypal-logo span > img {
     padding-left: 0;
   }
 }
+
+@media only screen and (min-width: 771px) {
+  #contactForm {
+  padding-bottom: 150px;
+  }
+}
+
 /* ============================================ *
  * Pricing Conditions
  * ============================================ */
