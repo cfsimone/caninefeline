@@ -1293,7 +1293,7 @@ a.button:hover {
   position: relative;
   max-width: 1260px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0px;
 }
 .main-container:after,
 .footer-container:after {
@@ -1428,7 +1428,7 @@ a.button:hover {
   .col3-layout .col-wrapper .col-left,
   .col3-layout .col-right,
   .col3-layout .col-wrapper .col-main {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
     float: none;
     width: auto;
@@ -4366,6 +4366,7 @@ body .promos > li {
 .category-title h1,
 body.catalogsearch-result-index .page-title h1 {
   border-bottom: none;
+  text-align: center;
 }
 
 .category-image {
@@ -9116,7 +9117,7 @@ div.paypal-logo span > img {
   left: 10px;
 }
 .slideshow-prev:hover:before {
-  border-color: transparent #2e8ab8 transparent transparent;
+  border-color: transparent #543a29 transparent transparent;
 }
 
 .slideshow-next {
@@ -9129,7 +9130,7 @@ div.paypal-logo span > img {
   right: 10px;
 }
 .slideshow-next:hover:before {
-  border-color: transparent transparent transparent #2e8ab8;
+  border-color: transparent transparent transparent #543a29;
 }
 
 .cycle-caption {
@@ -10795,4 +10796,8 @@ div.calendar table td.button {
   background: inherit;
   color: inherit;
   text-transform: none;
+}
+
+.category-products {
+  padding: 10px;
 }
