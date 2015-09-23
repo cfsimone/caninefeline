@@ -492,13 +492,13 @@ select,
 table,
 textarea {
   font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
-  color: #636363;
+  color: #635a4f;
   font-size: 14px;
   line-height: 1.5;
 }
 
 a {
-  color: #F9B973;
+  color: #FF9153;
   text-decoration: none;
 }
 
@@ -538,7 +538,7 @@ h1, .h1 {
 h2, .h2 {
   margin: 0;
   margin-bottom: 0.5em;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -551,7 +551,7 @@ h2, .h2 {
 h3, .h3 {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -564,7 +564,7 @@ h3, .h3 {
 h4, .h4 {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -577,7 +577,7 @@ h4, .h4 {
 h5, .h5 {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
@@ -590,7 +590,7 @@ h5, .h5 {
 h6, .h6 {
   margin: 0;
   margin-bottom: 5px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -641,7 +641,7 @@ h6, .h6 {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 600;
-  color: #636363;
+  color: #635a4f;
   border-bottom: 0px solid #F5F5F5;
   padding-bottom: 3px;
   margin-bottom: 15px;
@@ -671,7 +671,7 @@ h6, .h6 {
 .block-title strong {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -751,7 +751,7 @@ body:not(.customer-account) .block:first-child .block-title {
   .sidebar .block:not(.block-layered-nav) .block-title > strong {
     margin: 0;
     margin-bottom: 10px;
-    color: #636363;
+    color: #635a4f;
     font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -797,7 +797,7 @@ body:not(.customer-account) .block:first-child .block-title {
   .sidebar .block:not(.block-layered-nav) .block-title.active > strong {
     margin: 0;
     margin-bottom: 10px;
-    color: #636363;
+    color: #635a4f;
     font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -868,7 +868,7 @@ body:not(.customer-account) .block:first-child .block-title {
 }
 .block-account li a,
 .block-cms-menu li a {
-  color: #636363;
+  color: #635a4f;
 }
 .block-account li a:hover,
 .block-cms-menu li a:hover {
@@ -884,7 +884,7 @@ body:not(.customer-account) .block:first-child .block-title {
 .sidebar .actions .button,
 .button.button-secondary {
   background: #dddddd;
-  color: #636363;
+  color: #635a4f;
   padding: 7px 15px;
 }
 .cart .buttons-set .button:hover,
@@ -899,13 +899,13 @@ body:not(.customer-account) .block:first-child .block-title {
 .sidebar .actions .button:active,
 .button.button-secondary:active {
   background: #c4c4c4;
-  color: #636363;
+  color: #635a4f;
 }
 .cart .buttons-set .button:focus,
 .cart-table .button:focus,
 .sidebar .actions .button:focus,
 .button.button-secondary:focus {
-  color: #636363;
+  color: #635a4f;
   background: #c4c4c4;
   outline: none;
 }
@@ -921,6 +921,7 @@ body:not(.customer-account) .block:first-child .block-title {
 .footer .button {
   background: #A4EA74;
   display: inline-block;
+  border-radius: 10px;
   padding: 7px 15px;
   border: 0;
   color: #FFFFFF;
@@ -1151,7 +1152,7 @@ a.button:hover {
 
 .breadcrumbs a {
   float: left;
-  color: #636363;
+  color: #635a4f;
 }
 
 .breadcrumbs a:hover {
@@ -1159,7 +1160,7 @@ a.button:hover {
 }
 
 .breadcrumbs strong {
-  color: #636363;
+  color: #635a4f;
   font-weight: normal;
 }
 
@@ -2113,7 +2114,7 @@ span.weee {
 .toolbar,
 .pager {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
-  color: #636363;
+  color: #635a4f;
   line-height: 30px;
   font-size: 12px;
 }
@@ -2246,7 +2247,7 @@ span.weee {
 
 .pages .current,
 .pages .current:hover {
-  color: #636363;
+  color: #635a4f;
   border: 0px solid #cccccc;
   width: 30px;
   background-color: #FFFFFF;
@@ -2528,7 +2529,7 @@ body.customer-account .data-table .show-details .summary-collapse:hover:before {
 form .legend {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -2812,7 +2813,7 @@ p.required,
 #checkout-shipping-method-load .sp-methods dd label,
 #co-shipping-method-form .sp-methods dd label,
 .product-options ul.options-list label {
-  color: #636363;
+  color: #635a4f;
   background-color: #f4f4f4;
   padding: 5px 10px;
   display: inline-block;
@@ -3200,7 +3201,7 @@ body {
   /*padding: 10px;*/
 
   height: 44px;
-  background-color: #FFA17B;
+  background-color: #FF9153;
   text-transform: uppercase;
     display: block;
 }
@@ -3316,7 +3317,7 @@ body {
   float: left;
   width: 20%;
   height: 44px;
-  color: #636363;
+  color: #635a4f;
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
@@ -3414,7 +3415,7 @@ a.skip-link {
     padding: 0 15px 0 25px;
     border-bottom: 0px solid #cccccc;
     text-align: left;
-    color: #636363;
+    color: #635a4f;
     text-transform: uppercase;
     line-height: 30px;
   }
@@ -3524,7 +3525,7 @@ a.skip-link {
   text-decoration: none;
   position: relative;
   display: block;
-  color: #636363;
+  color: #635a4f;
   line-height: 30px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
@@ -3797,7 +3798,7 @@ a.skip-link {
   #header-account a {
     display: block;
     padding: 5px 10px;
-    color: #636363;
+    color: #635a4f;
     line-height: 2;
   }
 
@@ -3854,7 +3855,7 @@ a.skip-link {
     #header-account a {
         display: block;
         padding: 5px 10px;
-        color: #636363;
+        color: #635a4f;
         line-height: 2;
     }
 
@@ -4407,7 +4408,7 @@ h5.product-name,
 p.product-name {
   margin: 0;
   margin-bottom: 0.5em;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -4425,7 +4426,7 @@ h3.product-name a,
 h4.product-name a,
 h5.product-name a,
 p.product-name a {
-  color: #636363;
+  color: #635a4f;
 }
 h2.product-name a:hover,
 h3.product-name a:hover,
@@ -4863,7 +4864,7 @@ p.product-name a:hover {
   display: none;
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -4910,7 +4911,7 @@ p.product-name a:hover {
 .block-layered-nav .block-content > dl > dt {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -5093,7 +5094,7 @@ p.product-name a:hover {
   }
 
   .block-layered-nav dl ol > li > a {
-    color: #636363;
+    color: #635a4f;
     background-color: #f4f4f4;
     padding: 5px 10px;
   }
@@ -5106,7 +5107,7 @@ p.product-name a:hover {
   display: block;
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -5221,7 +5222,7 @@ p.product-name a:hover {
   text-transform: uppercase;
 }
 .product-view .product-shop .price-box .special-price span.weee {
-  color: #636363;
+  color: #635a4f;
 }
 .product-view .product-shop .price-box .special-price span.weee span.price {
   font-size: 16px;
@@ -5230,7 +5231,7 @@ p.product-name a:hover {
 .product-view .product-shop .price-box .price-including-tax {
   display: block;
   line-height: 1.2;
-  color: #636363;
+  color: #635a4f;
 }
 .product-view .product-shop .price-box .price-excluding-tax .label,
 .product-view .product-shop .price-box .price-including-tax .label {
@@ -5640,7 +5641,7 @@ p.product-name a:hover {
   .product-collateral > dl > dt {
     margin: 0;
     margin-bottom: 10px;
-    color: #636363;
+    color: #635a4f;
     font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -5969,7 +5970,7 @@ p.product-name a:hover {
   padding: 0 0 10px;
   border: 0;
   background: 0;
-  color: #636363;
+  color: #635a4f;
 }
 @media only screen and (max-width: 1199px) {
   .product-options-bottom .product-pricing,
@@ -5990,7 +5991,7 @@ p.product-name a:hover {
 
 .product-options-bottom .tier-prices .price,
 .product-options-bottom .tier-prices .benefit {
-  color: #636363;
+  color: #635a4f;
 }
 
 /* "display: none" should be removed if products on site have a long list of product options and those product options */
@@ -6027,7 +6028,7 @@ p.product-name a:hover {
 .block-related .block-title h2 {
   margin: 0;
   margin-bottom: 0.5em;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -6523,7 +6524,7 @@ p.product-name a:hover {
   vertical-align: top;
 }
 .cart-table h2 {
-  color: #636363;
+  color: #635a4f;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 0;
@@ -7404,7 +7405,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   padding-top: 6px;
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -7418,7 +7419,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   color: #a0a0a0;
 }
 .block-progress dt.complete {
-  color: #636363;
+  color: #635a4f;
 }
 .block-progress dd {
   padding-left: 15px;
@@ -7435,7 +7436,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
 .block-progress .payment-info dt {
   padding: 0;
   margin: 0 0 3px 0;
-  color: #636363;
+  color: #635a4f;
   font-family: Georgia, Times, "Times New Roman", serif;
   text-transform: none;
   font-style: italic;
@@ -7671,7 +7672,7 @@ body:not(.opc-has-progressed-from-login) .opc.opc-firststep-login .section#opc-l
   border-radius: 3px;
   font-size: 14px;
   text-align: center;
-  color: #636363;
+  color: #635a4f;
   text-decoration: none;
   box-sizing: content-box;
 }
@@ -8748,7 +8749,7 @@ div.paypal-logo span > img {
   text-transform: uppercase;
 }
 #customer-reviews h2 span {
-  color: #636363;
+  color: #635a4f;
 }
 #customer-reviews h3 {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
@@ -9082,7 +9083,7 @@ div.paypal-logo span > img {
   top: 50%;
   margin-left: -8px;
   margin-top: -8px;
-  border-radius: 0px;
+  border-radius: 10px;
   background-color: #FFFFFF;
   position: relative;
 }
@@ -9296,7 +9297,7 @@ div.paypal-logo span > img {
   font-size: 12px;
 }
 #wishlist-table .price-box .price {
-  color: #636363;
+  color: #635a4f;
 }
 #wishlist-table .giftregisty-add {
   margin-top: 5px;
@@ -9544,7 +9545,7 @@ div.paypal-logo span > img {
   width: 40px;
   float: right;
   display: block;
-  color: #636363;
+  color: #635a4f;
   text-decoration: none;
   font-weight: normal;
   font-size: 30px;
@@ -9679,7 +9680,7 @@ div.paypal-logo span > img {
 }
 @media only screen and (max-width: 770px) {
   .header-minicart .subtotal .label {
-    color: #636363;
+    color: #635a4f;
   }
   .header-minicart .minicart-wrapper:before {
     background-color: #F5F5F5;
@@ -9904,7 +9905,7 @@ div.paypal-logo span > img {
 }
 .cms-page-view .std p,
 .cms-no-route .std p {
-  color: #636363;
+  color: #635a4f;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 14px;
   font-style: italic;
@@ -9920,7 +9921,7 @@ div.paypal-logo span > img {
 }
 .cms-page-view .std li,
 .cms-no-route .std li {
-  color: #636363;
+  color: #635a4f;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 14px;
   font-style: italic;
@@ -9962,7 +9963,7 @@ div.paypal-logo span > img {
 #accordion > dl > dt {
   margin: 0;
   margin-bottom: 10px;
-  color: #636363;
+  color: #635a4f;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
